@@ -8,7 +8,7 @@
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 ## The Problem
-A state education board discovers, only after lakhs of copies are printed, that a translated vernacular textbook chapter contradicts the source NCERT text on a factual point—a date, a formula, a scientific claim. This happens because the translation-and-localisation pipeline was never fact-checked against the original.
+A state education board discovers, only after lakhs of copies are printed, that a translated vernacular textbook chapter contradicts the source NCERT text on a factual point — a date, a formula, a scientific claim — because the translation-and-localisation pipeline was never fact-checked against the original. Build an AI cross-verification pipeline that compares a translated/localised textbook chapter against its source-language original and flags factual drift, mistranslation-driven errors, or silently dropped content, across at least three Indian languages. Twist: The system must distinguish genuine, intentional localisation — regionally appropriate examples, renamed characters — from unintentional factual drift, or it will bury every real error under thousands of harmless false positives.
 
 ## Our Solution
 **PARITY** is an AI cross-verification pipeline that compares a translated/localised textbook chapter against its source-language original. It flags factual drift, mistranslation-driven errors, and silently dropped content across multiple Indian languages.
